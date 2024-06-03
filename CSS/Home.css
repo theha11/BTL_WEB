@@ -27,9 +27,10 @@ body {
 .header {
     width: 100%;
     min-height: 611px;
-    background-image: url(/Image/HomeImages/banner.jpg);
     background-position: center;
     background-size: cover;
+    /* Dùng hiệu ứng khi background thay đổi  */
+    transition: background-image 1s ease-in-out; 
 }
 .menu {
     text-align: right;
@@ -53,7 +54,7 @@ body {
 }
 .text-box {
     width: 90%;
-    color: #FC5831;
+    color: #892106;
     position: absolute;
     top: 25%;
     left: 50%;
