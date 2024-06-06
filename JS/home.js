@@ -11,5 +11,5 @@ document.addEventListener("DOMContentLoaded", function() {
         header.style.backgroundImage = `url(${images[currentIndex]})`;
     }
 
-    setInterval(changeBackground, 3000); // Thay đổi hình ảnh mỗi 5 giây
+    setInterval(changeBackground, 3000); // Thay đổi hình ảnh mỗi 3 giây
 });
