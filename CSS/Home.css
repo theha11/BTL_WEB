@@ -29,6 +29,7 @@ body {
     min-height: 611px;
     background-position: center;
     background-size: cover;
+    background-image: url(/Image/HomeImages/banner.jpg);
     /* Dùng hiệu ứng khi background thay đổi  */
     transition: background-image 1s ease-in-out; 
 }
