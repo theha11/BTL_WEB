@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in/Log-in</title>
+    <link rel="stylesheet" href="/CSS/sign_log.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Sign In</button>
+            </div>
+            <div class="social-icons">
+                <img src="/Image/login-reg-img/fb.png">
+                <img src="/Image/login-reg-img/gp.png">
+                <img src="/Image/login-reg-img/tw.png">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Tên đăng nhập" required>
+                <input type="text" class="input-field" placeholder="Nhập mật khẩu" required>
+                <input type="checkbox" class="check-box"><span>Nhớ mật khẩu</span>
+                <button type="submit" class="submit-btn">Đăng nhập</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Tên đăng nhập" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="Nhập mật khẩu" required>
+                <input type="checkbox" class="check-box"><span>Tôi đồng ý với các yêu cầu của web</span>
+                <button type="submit" class="submit-btn">Đăng ký</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="/JS/sign-log.js">
+    </script>
+</body>
+
+</html>
