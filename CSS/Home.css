@@ -6,7 +6,7 @@ a {
     text-decoration: none;
 }
 body {
-    background-image: linear-gradient(to top,rgb(249, 249, 249, 0.7), rgba(242, 225, 193, 0.7));
+    /* background-image: linear-gradient(to top,rgb(249, 249, 249, 0.7), rgba(242, 225, 193, 0.7)); */
 
 }
 
@@ -38,9 +38,18 @@ body {
 }
 .menu li a{
     list-style: none;
-    color: #040404;
+    color: #FC5831;
     font-weight: bold;
     font-size: large;
+}
+.menu li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    margin: auto;
+    display: block;
+    background-color: #FC5831;
+    transition: 0.5s;
 }
 .menu li {
     display: inline-block;
@@ -49,12 +58,12 @@ body {
     margin-top: 5px;
     transition: 0.5s;
 }
-.menu li a:hover {
-    color: #FC5831;
+.menu li:hover::after {
+    width: 100%;
 }
 .text-box {
     width: 90%;
-    color: #892106;
+    color: #FC5831;
     position: absolute;
     top: 25%;
     left: 50%;
@@ -65,7 +74,7 @@ body {
 }
 .text-box p {
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
 }
 .text-box a {
@@ -105,7 +114,7 @@ body {
 }
 .col-4:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 0px 10px 10px #e7bcb1;
+    box-shadow: 0px 0px 10px 5px #e7bcb1;
 }
 .btn {
     width: 100px;
