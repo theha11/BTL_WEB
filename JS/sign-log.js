@@ -1,6 +1,7 @@
 var x = document.getElementById("login");
 var y = document.getElementById("register");
 var z = document.getElementById("btn");
+var successMessage = document.getElementById("success-message");
 function login() {
   x.style.left = "50px";
   y.style.left = "450px";
