@@ -1,15 +1,13 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const images = [
-        '/Image/HomeImages/banner.jpg',
-        '/Image/HomeImages/banner2.jpg'
-    ];
-    let currentIndex = 0;
-    const header = document.querySelector('.header');
-
-    function changeBackground() {
-        currentIndex = (currentIndex + 1) % images.length;
-        header.style.backgroundImage = `url(${images[currentIndex]})`;
+// ------------ Back to top --------------
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  
+  window.addEventListener("scroll", function() {
+    const backToTopButton = document.getElementById("back-to-top");
+    if (window.scrollY > 100) { // Adjust the value as needed
+        backToTopButton.classList.add("show");
+    } else {
+        backToTopButton.classList.remove("show");
     }
-
-    setInterval(changeBackground, 3000); // Thay đổi hình ảnh mỗi 3 giây
-});
+  });

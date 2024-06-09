@@ -119,3 +119,50 @@ function addItemToCart(title, price, img) {
       updatecart();
     });
 }
+
+
+// ----------------------- Page button --------------------
+
+const products = document.querySelectorAll(".main-product");
+const itemsPerPage = 8;
+const totalPages = Math.ceil(products.length / itemsPerPage);
+const pageButtons = document.querySelectorAll(".page-btn");
+
+function showPage(pageNumber) {
+  const startIndex = (pageNumber - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  products.forEach(function(product) {
+    product.style.display = "none";
+  });
+  for (let i = startIndex; i < endIndex && i < products.length; i++) {
+    products[i].style.display = "block";
+  }
+  
+  pageButtons.forEach(function(button) {
+    button.classList.remove("active");
+  });
+  pageButtons[pageNumber - 1].classList.add("active");
+}
+
+pageButtons.forEach(function(button, index) {
+  button.addEventListener("click", function() {
+    showPage(index + 1);
+  });
+});
+
+showPage(1);
+
+
+// ------------ Back to top --------------
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+window.addEventListener("scroll", function() {
+  const backToTopButton = document.getElementById("back-to-top");
+  if (window.scrollY > 100) { // Adjust the value as needed
+      backToTopButton.classList.add("show");
+  } else {
+      backToTopButton.classList.remove("show");
+  }
+});

@@ -8,23 +8,41 @@
     <title>Shopping-cart</title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css">
     <link rel="stylesheet" href="/CSS/style.css" />
 </head>
 
 <body>
+    <div class="contact">
+        <ul class="ct">
+            <li>Để biết thêm thông tin</li>
+            <li>
+                <i class="fa-sharp fa-regular fa-envelope"></i>
+                Email: abc@gmail.com
+            </li>
+            <li>
+                <i class="fa-regular fa-phone"></i>
+                Tư vấn hỗ trợ: 0123 456 789
+            </li>
+        </ul>
+    </div>
+
     <!-- header -->
     <header>
+        <div class="Menu">
+            <ul class="menu">
+                <li><a href="Home.html">TRANG CHỦ</a></li>
+                <li><a href="Main.html">SẢN PHẨM</a></li>
+                <li><a href="Contact.html">LIÊN HỆ</a></li>
+                <li><a href="">GIỚI THIỆU</a></li>
+            </ul>
+        </div>
         <nav>
-            <div class="img-nav">
-                <img src="/Image/" alt="" />
-            </div>
             <div class="content-nav">
-                <ul>
-                    <li><a href="Home.html">Trang Chủ</a></li>
-                    <li><a href="#">Sản Phẩm</a></li>
-                    <li><a href="Contact.html">Liên Hệ</a></li>
-                    <li><a href="#">Giới Thiệu</a></li>
-                </ul>
                 <form>
                     <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
                     <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -68,7 +86,7 @@
     <!-- content -->
     <section class="wrapper">
         <div class="products">
-            <ul>
+            <ul id="product-list">
                 <li class="main-product">
                     <div class="img-product">
                         <img class="img-prd" src="/Image/Product/anh1.png" alt="">
@@ -182,26 +200,321 @@
                         </div>
                     </div>
                 </li>
+
+
+
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh9.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Tay Hàn Điều Chỉnh Nhiệt Độ TQ936 220V-60W Tặng Thiếc 30g, 5 Mũi Hàn, Giá Đỡ Mỏ Hàn</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">82000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh10.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Kính Lúp Đeo Trực Tiếp 32225-21SX Có Led Có Thể Điều Chỉnh Độ Phóng</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">229000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh11.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Combo Arduino Uno R3 Dán + Shield Uno R3 + 4 Module A4988 V1</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">229000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh12.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Dây Cắm Test Board, Dây Đực Đực, Dây Đực Cái, Dây Cái Cái, Dây Nối 7 Màu 20cm</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">7000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh13.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Module Khuếch Đại Âm Thanh TDA2030 Mini</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">25000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh14.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Module Giải Mã Âm Thanh Tích Hợp Bluetooth 5.0- USB- Thẻ Nhớ- FM Kèm Remode</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">159000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh15.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Module Cách Li Lọc Nhiễu Âm Thanh In/Out Jack Audio</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">85000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh16.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Động Cơ Giảm Tốc XD-25GA370 12VDC 5W 0.3A</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">189000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+
+
+
+
+
+
+
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh17.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Động Cơ Bước 86BYG250C 1.8 Độ 6Nm 5.8A Trục 101mm</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">1050000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh18.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Động Cơ Phát Điện Mini 6.5V</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">25000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh19.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Đầu Cốt Chữ I PTV2-12 Gói 1000c</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">249000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh20.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Công Tắc Chuyển Mạch CG- 16</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">185000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh21.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Vỏ Raspberry Pi 4B Màu Đen</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">79000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh22.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Terminal KF8.5 300V 20A</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">1500đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh23.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Module Khống Chế Nhiệt Độ-Độ Ẩm DHT21</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">430000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd" src="/Image/Product/anh24.png" alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Đầu Dò Cảm Biến Nhiệt Độ K WRNT-10</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">49000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+
             </ul>
         </div>
+
+        <div class="pagination">
+            <button class="page-btn" onclick="showPage(1)">1</button>
+            <button class="page-btn" onclick="showPage(2)">2</button>
+            <button class="page-btn" onclick="showPage(3)">3</button>
+        </div>
+
     </section>
     <!-- footer -->
-    <footer>
-        <div class="footer-item">
-            <div class="img-footer">
-                <img src="" alt="" />
+    <section class="footer">
+        <div class="rowf">
+            <div class="col-4f">
+                <h4>
+                    Giới thiệu
+                </h4>
+                <p>Trái với quan điểm chung của số đông, 
+                    Lorem Ipsum không phải chỉ là một đoạn văn bản ngẫu nhiên. 
+                    Người ta tìm thấy nguồn gốc của nó từ những tác phẩm văn học la-tinh 
+                    cổ điển xuất hiện từ năm 45 trước Công Nguyên, nghĩa là nó đã 
+                    có khoảng hơn 2000 tuổi.</p>
+                <p>Lorem Ipsum chỉ đơn giản là một đoạn văn 
+                    bản giả, được dùng vào việc trình bày và dàn trang phục vụ 
+                    cho in ấn.</p>
             </div>
-            <div class="social-footer">
-                <li><a target="_blank" href="">
-                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                    </a></li>
-                <li><a target="_blank" href="">
-                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                    </a></li>
-
+            <div class="col-4f">
+                <h4>
+                    Dịch vụ
+                </h4>
+                <ul>
+                    <li>Nhập khẩu & phân phối</li>
+                    <li>Bảo trì</li>
+                    <li>Sản xuất & Chế tạo</li>
+                    <li>Lắp đặt</li>
+                    <li>Tư vấn</li>
+                </ul>
+            </div>
+            <div class="col-4f">
+                <h4>
+                    Showroom
+                </h4>
+                <ul>
+                    <li>TP.HCM - Q. Bình Thạnh <br>
+                        ĐT: 0123.456.789</li>
+                    <li>TP.HCM - Q. 7 <br>
+                        ĐT: 0123.456.789</li>
+                    <li>TP.HCM - Hóc Môn <br>
+                        ĐT: 0123.456.789</li>
+                    <li>Cần Thơ <br>
+                        ĐT: 0123.456.789</li>
+                    <li>Vũng Tàu <br>
+                        ĐT: 0123.456.789</li>
+                </ul>        
+        
+            </div>
+            <div class="col-4f">
+                <h4>
+                    Showroom
+                </h4>
+                <ul>
+                    <li>Hà Nội <br>
+                        ĐT: 0123.456.789</li>
+                    <li>Đà Lạt <br>
+                        ĐT: 0123.456.789</li>
+                    <li>Nha Trang <br>
+                        ĐT :0123.456.789</li>
+                    <li>Đà Nẵng <br>
+                        ĐT: 0123.456.789</li>
+                    <li>Cambodia <br>
+                        ĐT: 0123.456.789</li>
+                </ul>
             </div>
         </div>
-    </footer>
+    </section>
+
+    <!-- ------------ Back to top -------------- -->
+    <button id="back-to-top" onclick="scrollToTop()">&#x25B2;</button>
+
+
     <script src="/JS/main.js"></script>
 </body>
 
