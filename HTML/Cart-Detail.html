@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/Cart-Detail.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contact">
+        <ul class="ct">
+            <li>Để biết thêm thông tin</li>
+            <li>
+                <i class="fa-sharp fa-regular fa-envelope"></i>
+                Email: abc@gmail.com
+            </li>
+            <li>
+                <i class="fa-regular fa-phone"></i>
+                Tư vấn hỗ trợ: 0123 456 789
+            </li>
+        </ul>
+    </div>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="Home.html">TRANG CHỦ</a></li>
+            <li><a href="Product.html">SẢN PHẨM</a></li>
+            <li><a href="Contact.html">LIÊN HỆ</a></li>
+            <li><a href="">GIỚI THIỆU</a></li>
+        </ul>
+
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Giỏ Hàng</h5>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                        <span class="cart-price cart-header cart-column">Giá</span>
+                        <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                    </div>
+                    <div class="cart-items">
+
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Tổng Cộng:</strong>
+                        <span class="cart-total-price">0VNĐ</span>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                    <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+  
+    <!-- ------------ product detail ------------- -->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="/Image/Product/anh1.png" id="product-img" class="img-prd">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="/Image/Product/anh1.png" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="/Image/Detail_1/img1.png" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="/Image/Detail_1/img2.png" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="/Image/Detail_1/img3.png" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Trang chủ / Sản phẩm</p>
+                <h1 class="content-product-h3">Mũi Hàn 500</h1>
+                <div class="price"><h4>500000đ</h4></div>
+                <div class="product-options">
+                    <select name="" id="">
+                        <option value="">Model</option>
+                        <option value="">B</option>
+                        <option value="">6C</option>
+                        <option value="">8D</option>
+                    </select>
+                    <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                    <!-- <input type="number" value="1"> -->
+                </div>
+                
+                <h3>Chi tiết sản phẩm</h3>
+                <p>Mũi Hàn 500 có lớp hợp kim sắt lớp bảo vệ, đầu hàn sắc nhọn, lên nhiệt nhanh chóng,
+                     có độ bền và hiệu suất làm việc cao. Ngoài ra, mũi hàn 500 có cấu trúc đơn giản, 
+                     chi phí sản xuất thấp, sử dụng công nghệ Nano chống ăn mòn, chống oxi hóa.</p>
+            </div>
+
+            <div class="detail">
+                <div class="guarantee">
+                    <i class="fa-sharp fa-regular fa-calendar-lines"></i>
+                    <div class="text-G">
+                        <h4>Chế độ bảo hành</h4>
+                        <p>Chế độ bảo hành sản phẩm của Linh Kiện Điện Tử</p>
+                    </div>
+                </div>
+                <div class="guarantee">
+                    <i class="fa-sharp fa-solid fa-medal"></i>
+                    <div class="text-G">
+                        <h4>Bảo đảm chất lượng</h4>
+                        <p>Sản phẩm được Test, dán Tem trước khi được đóng gói Kĩ Càng gửi cho Quý Khách</p>
+                    </div>
+                </div>
+                <div class="guarantee">
+                    <i class="fa-duotone fa-truck"></i>
+                    <div class="text-G">
+                        <h4>Cước vận chuyển</h4>
+                        <p>Cước vận chuyển được tự động đồng bộ đơn vị vận chuyển, Sản phẩm phát ngay trong ngày. Hỗ trợ đơn hàng: 02420214848</p>
+                    </div>
+                </div>
+                <div class="guarantee">
+                    <i class="fa-duotone fa-shield-check"></i>
+                    <div class="text-G">
+                        <h4>Hỗ trợ kỹ thuật</h4>
+                        <p>Tư vấn kĩ thuật: 0969.477.417 Khi khách hàng gặp khó khăn trong quá trình sử dụng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="footer">
+        <div class="rowf">
+            <div class="col-4f">
+                <h4>
+                    Giới thiệu
+                </h4>
+                <p>Trái với quan điểm chung của số đông, 
+                    Lorem Ipsum không phải chỉ là một đoạn văn bản ngẫu nhiên. 
+                    Người ta tìm thấy nguồn gốc của nó từ những tác phẩm văn học la-tinh 
+                    cổ điển xuất hiện từ năm 45 trước Công Nguyên, nghĩa là nó đã 
+                    có khoảng hơn 2000 tuổi.</p>
+                <p>Lorem Ipsum chỉ đơn giản là một đoạn văn 
+                    bản giả, được dùng vào việc trình bày và dàn trang phục vụ 
+                    cho in ấn.</p>
+            </div>
+            <div class="col-4f">
+                <h4>
+                    Dịch vụ
+                </h4>
+                <ul>
+                    <li>Nhập khẩu & phân phối</li>
+                    <li>Bảo trì</li>
+                    <li>Sản xuất & Chế tạo</li>
+                    <li>Lắp đặt</li>
+                    <li>Tư vấn</li>
+                </ul>
+            </div>
+            <div class="col-4f">
+                <h4>
+                    Showroom
+                </h4>
+                <ul>
+                    <li>TP.HCM - Q. Bình Thạnh <br>
+                        ĐT: 0123.456.789</li>
+                    <li>TP.HCM - Q. 7 <br>
+                        ĐT: 0123.456.789</li>
+                    <li>TP.HCM - Hóc Môn <br>
+                        ĐT: 0123.456.789</li>
+                    <li>Cần Thơ <br>
+                        ĐT: 0123.456.789</li>
+                    <li>Vũng Tàu <br>
+                        ĐT: 0123.456.789</li>
+                </ul>        
+        
+            </div>
+            <div class="col-4f">
+                <h4>
+                    Showroom
+                </h4>
+                <ul>
+                    <li>Hà Nội <br>
+                        ĐT: 0123.456.789</li>
+                    <li>Đà Lạt <br>
+                        ĐT: 0123.456.789</li>
+                    <li>Nha Trang <br>
+                        ĐT :0123.456.789</li>
+                    <li>Đà Nẵng <br>
+                        ĐT: 0123.456.789</li>
+                    <li>Cambodia <br>
+                        ĐT: 0123.456.789</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<script src="/JS/cart-detail.js"></script>
+
+</body>
+</html>
