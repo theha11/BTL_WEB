@@ -77,13 +77,34 @@ a {
     color: #fff;
     font-weight: bold;
 }
+
+.banner2 {
+    width: 80%;
+    margin: 30px auto;
+    cursor: pointer;
+}
+.banner2 img {
+    width: 100%;
+}
+
+
 /* ---------------- products ----------------- */
 .products h1 {
-    text-align: center;
+    padding: 5px;
+    background-color: #38bde2;
+    color: #fff;
     display: block;
-    margin-top: 40px;
-    font-size: xx-large;
-    border-bottom: 1px solid #FC5831;
+    margin: 30px auto;
+    width: 80%;
+}
+.highlight {
+    background-color: #FC5831;
+    font-size: 22px;
+    padding: 6px;
+    margin: 0;
+    position: relative;
+    top: -5px;
+    box-shadow: 0px 0px 2px 2px #888888;
 }
 .row {
     width: 80%;
@@ -141,6 +162,7 @@ a {
     display: flex;
     width: 80%;
     margin: auto;
+    justify-content: space-around;
 }
 .col-3 {
     flex-basis: 32%;
@@ -151,6 +173,9 @@ a {
 }
 .col-3 img {
     width: 100%;
+}
+.img-a {
+    flex-basis: 20%;
 }
 .tcol {
     display: flex;
