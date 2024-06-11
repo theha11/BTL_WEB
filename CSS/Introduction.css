@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .container{
     width: 100%;
     position: relative;
@@ -111,4 +115,8 @@ a {
 
 .table-of-content > ul > li:hover > a {
   color: #fc5831;
+}
+
+.comment i{
+  font-size: 16px;
 }
