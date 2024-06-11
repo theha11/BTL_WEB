@@ -104,6 +104,7 @@ a {
 }
 
 .table-of-content > ul > li > a {  
+  color: black;
   display: block; 
 }
 
