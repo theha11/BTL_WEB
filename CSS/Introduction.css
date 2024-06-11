@@ -98,6 +98,10 @@ a {
   border-bottom: 1px solid #ccc;
 }
 
+.table-of-content > ul > li:last-child {
+  border: none;
+}
+
 .table-of-content > ul > li > a {
   color: black;
 }
