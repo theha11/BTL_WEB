@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -104,3 +105,111 @@ a {
 .table-of-content > ul > li:hover > a {
   color: #fc5831;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+.intro-text {
+  width: 940px;
+  margin: 20px 32px 0 auto;
+  font-family: "Roboto", sans-serif;
+  background-color: #efebeb;
+  /* float: right; */
+  padding: 20px 16px;
+}
+
+.title-page {
+  /* padding: 10px ; */
+  text-transform: uppercase;
+  color: #fc5831;
+  border-bottom: 1px solid #fc5831;
+  padding-bottom: 6px;
+}
+
+.category {
+  margin-top: 10px;
+  color: #fc5831;
+  font-size: 24px;
+}
+
+.intro-text p {
+  margin: 12px 0;
+  font-size: 20px;
+}
+
+.intro-text p > span {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.review-box {
+  display: flex;
+  padding: 64px 0;
+  justify-content: space-between;
+}
+
+.review-box-2 {
+  width: 540px;
+  display: flex;
+  padding: 16px 0;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.customer {
+  width: 250px;
+  text-align: center;
+}
+
+.customer img {
+  width: 190px;
+  height: 190px;
+  border-radius: 190px;
+}
+
+.table-of-content {
+  width: 220px;
+  font-family: "Roboto", sans-serif;
+  /* padding: 10px; */
+  background-color: #efebeb;
+  position: fixed;
+  top: 106px;
+  left: 16px;
+  z-index: -1;
+}
+
+.table-of-content h3 {
+  padding: 10px;
+  background-color: #fc5831;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.table-of-content > ul {
+  list-style: none;
+  padding: 0 10px;
+}
+
+.table-of-content > ul > li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-of-content > ul > li > a {
+  color: black;
+}
+
+.table-of-content > ul > li:hover > a {
+  color: #fc5831;
+}
+>>>>>>> 6329be809db6e5cce200c40b6359ada384cb3532
