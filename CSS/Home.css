@@ -21,6 +21,7 @@ a {
     padding: 10px;
 }
 .header {
+    position: relative;
     width: 100%;
     min-height: 611px;
     background-position: center;
@@ -70,8 +71,9 @@ a {
 }
 .text-box p {
     margin: 10px 0 40px;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
+    text-shadow: 1px 1px #505050;
 }
 .text-box a {
     color: #fff;
@@ -86,7 +88,7 @@ a {
     border-bottom: 1px solid #FC5831;
 }
 .row {
-    width: 80%;
+    width: 1126px;
     margin: 60px auto;
     display: flex;
     justify-content: space-between;
@@ -139,7 +141,7 @@ a {
 }
 .row-info {
     display: flex;
-    width: 80%;
+    width: 1126px;
     margin: auto;
 }
 .col-3 {
