@@ -6,7 +6,7 @@
 .main{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/Image/login-reg-img/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/Image/HomeImages/banner.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;

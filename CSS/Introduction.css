@@ -98,12 +98,20 @@ a {
   border-bottom: 1px solid #ccc;
 }
 
+<<<<<<< HEAD
 .table-of-content > ul > li:last-child {
   border: none;
 }
 
 .table-of-content > ul > li > a {  
   display: block; 
+=======
+.table-of-content > ul > li:lastchild {
+  border: none;
+}
+
+.table-of-content > ul > li > a {
+>>>>>>> 966e2087d48fb76b9fdb509106b2cc47389a7493
   color: black;
 }
 
