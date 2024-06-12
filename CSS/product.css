@@ -31,13 +31,8 @@ a {
   background-color: #FC5831;
 }
 .menu li:nth-child(1) > a > img{
-<<<<<<< HEAD
-  width:60px;
+  width: 60px;
   height: 100%;
-=======
-  width: 150px;
-  height: 100px;
->>>>>>> f0f760c91713074c3f07a2574c2da723355bd938
 }
 .menu li a{
   display: block;
