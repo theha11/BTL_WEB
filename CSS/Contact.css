@@ -162,7 +162,7 @@ a {
     margin-bottom: 10px;
     border: 1px solid #d6d6d6;
 }
-input::placeholder {
+input {
     padding-left: 10px;
 }
 textarea::placeholder {
