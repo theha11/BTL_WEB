@@ -27,8 +27,8 @@ nav{
     text-align: left;
 }
 .menu li:nth-child(1) > a > img{
-    width: 150px;
-    height: 100px;
+    width: 60px;
+    height:30px;
 }
 .menu li a{
     list-style: none;
