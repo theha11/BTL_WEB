@@ -28,10 +28,10 @@ nav{
 }
 .menu li:nth-child(1) > a > img{
     width: 60px;
-    height:30px;
+    height:100%;
 }
 .menu li a{
-    list-style: none;
+    display: block;    list-style: none;
     color: #FFF;
     font-weight: bold;
     font-size: large;
