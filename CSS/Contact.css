@@ -20,13 +20,19 @@ a {
     color: #fff;
     padding: 10px;
 }
-
+nav{
+    background-color: #FC5831;
+}
 .menu {
-    text-align: right;
+    text-align: left;
+}
+.menu li:nth-child(1) > a > img{
+    width: 150px;
+    height: 100px;
 }
 .menu li a{
     list-style: none;
-    color: #FC5831;
+    color: #FFF;
     font-weight: bold;
     font-size: large;
 }
@@ -42,7 +48,7 @@ a {
     width: 0;
     margin: auto;
     height: 2px;
-    background-color: #FC5831;
+    background-color: #FFF;
     display: block;
     transition: 0.5s;
 }
