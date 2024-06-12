@@ -99,3 +99,9 @@ span{
 #register{
     left: 450px;
 }
+#login > button > a{
+    text-decoration: none;
+}
+#register > button > a{
+    text-decoration: none;
+}
