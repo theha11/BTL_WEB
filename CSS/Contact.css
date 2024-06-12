@@ -28,8 +28,12 @@ nav{
 }
 .menu li:nth-child(1) > a > img{
     width: 60px;
+<<<<<<< HEAD
     height:100%;
 
+=======
+    height: 30px;
+>>>>>>> 85cea3beb72bb504bb2b28e7d23b5bb98d36c971
 }
 .menu li a{
     display: block;    list-style: none;
