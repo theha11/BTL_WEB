@@ -82,7 +82,6 @@ html{
   position:fixed;
   top: 106px;
   left: 16px;
-  z-index: 1;
 }
 
 .table-of-content h3 {
