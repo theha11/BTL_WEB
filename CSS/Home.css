@@ -127,6 +127,14 @@ nav {
   justify-content: space-between;
   align-items: end;
 }
+
+.cert{
+  height: 80px;
+}
+
+.cert img:hover{
+  scale: 1.05;
+}
 .col-4 {
   flex-basis: 25%;
   margin: 10px;
