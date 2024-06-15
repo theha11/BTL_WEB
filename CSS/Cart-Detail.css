@@ -44,6 +44,7 @@ nav{
   margin-top: 5px;
   transition: 0.5s;
 }
+
 .menu li::after {
   content: '';
   width: 0;
@@ -55,6 +56,10 @@ nav{
 }
 .menu li:hover::after {
   width: 100%;
+}
+
+.menu li:first-child:hover::after {
+  width: 0;
 }
 
 .small-container {

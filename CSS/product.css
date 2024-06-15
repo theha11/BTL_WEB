@@ -62,6 +62,11 @@ a {
   width: 100%;
 }
 
+.menu li:first-child:hover::after {
+  width: 0;
+}
+
+
   li {
     list-style: none;
   }
